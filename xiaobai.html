@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+#box {
+    height: 469px;
+    width: 478px;
+    margin: 50px auto;
+    border-radius: 50%;
+    animation: myBox 3s linear infinite;
+    -webkit-animation: myBox 3s linear infinite;
+    -moz-animation: myBox 3s linear infinite;
+}
+@keyframes myBox {
+    0% {
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+    }
+
+    51% {
+        transform: rotateX(0deg);
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+        -webkit-transform: rotateX(360deg);
+        -moz-transform: rotateX(360deg);
+    }
+
+}
+
+@-webkit-keyframes myBox {
+    0% {
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+    }
+
+    51% {
+        transform: rotateX(0deg);
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+        -webkit-transform: rotateX(360deg);
+        -moz-transform: rotateX(360deg);
+    }
+
+}
+    </style>
+</head>
+<body>
+    <div id="box">
+        <img src="1.png"/>
+    </div>
+</body>
+</html>
